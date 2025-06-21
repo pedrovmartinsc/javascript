@@ -1,3 +1,7 @@
+# Fundamentos do JavaScript Clássico
+
+## INTEGRAÇÕES
+~~~ html
 <!DOCTYPE html>
 
 <html lang="pt-BR">
@@ -13,3 +17,4 @@
 </body>
 
 </html>
+~~~ html
