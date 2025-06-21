@@ -50,6 +50,7 @@
 ### Comentário de linha
 
 ~~~ javascript
+./src/script.js
 
 /* comentário de bloco simples */
 
@@ -62,3 +63,26 @@
 /**
  * comentário de bloco com marcador
  */
+
+~~~
+### Atribuição de valor
+
+~~~ javascript
+./src/script.js
+
+var number;
+
+number = 5;
+
+~~~
+
+### Reatribuição de valor
+
+~~~ javascript
+./src/script.js
+
+var number = 5;
+
+number = 10;
+
+~~~
