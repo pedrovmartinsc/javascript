@@ -44,3 +44,21 @@
 
 </html>
 ~~~
+
+## COMENTÁRIOS
+
+### Comentário de linha
+
+~~~ javascript
+
+/* comentário de bloco simples */
+
+~~~
+
+### Comentário de bloco com marcadores
+
+~~~ javascript
+
+/**
+ * comentário de bloco com marcador
+ */
