@@ -147,6 +147,9 @@ var surname = "Bessa";
 var age = 29;
 var weight = 85.6;
 
+//flow number
+var weight = 85.6;
+
 // boolean
 var active = true;
 var permission = false;
@@ -159,5 +162,29 @@ console.log(contains);
 var data = null;
 
 ~~~
+
+### Não Primitivos
+
+~~~ javascript
+./src/script.js
+
+// array
+var values = [1, "Alex",true, null];
+
+//object Literal
+var person = {name: "Alex", age: 29};
+
+var person = {
+    name:"Alex",
+    age: "29",
+};
+
+console.log(person[1])
+
+// function
+var message = fuction(){};
+
+~~~
+
 
 
