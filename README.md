@@ -186,5 +186,87 @@ var message = fuction(){};
 
 ~~~
 
+### Inspecionar tipo
+~~~ javascript
+./src/script.js
 
+// typeof
+var age = 29;
+console.log(typeof age);
+
+~~~
+
+### Coerção de tipo
+- Implícita
+
+~~~ javascript
+./src/script.js
+
+// Tudo se torna uma String nesse caso
+var age = 29;
+var weight = "86.5";
+var result = age + weight;
+console.log(typeof age);
+
+~~~
+
+- Explícita
+
+~~~ javascript
+./src/script.js
+
+// Number()
+var weight = Number("85.6");
+console.log(typeof weight);
+
+// String()
+var age = String(29);
+console.log(typeof age);
+
+// Boolean()
+var active = Boolean(0);
+console.log(typeof active);
+
+~~~
+
+### Operadores
+~~~ javascript
+./src/script.js
+
+// Aritmético
+
+var num1 = 10;
+var num2 = 2;
+
+// Adição
+var sum = num1 + num2;
+
+// Subtração
+var sub = num1 - num2;
+
+// Multiplicação
+var mult = num1 * num2;
+
+// Divisão
+var div = num1 / num2;
+
+// Módulo / Resto
+var mod = num1 % num2;
+
+// Incremento
+num1++
+
+// Decremento
+num1--
+
+// Atribuição Simples
+var age = 29;
+
+// Atribuição de Adição
+var balance = 10;
+balance += 5;
+
+balance -= 5;
+
+~~~
 
