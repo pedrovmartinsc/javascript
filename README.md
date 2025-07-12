@@ -269,4 +269,83 @@ balance += 5;
 balance -= 5;
 
 ~~~
+### Lógicos
 
+~~~ javascript
+./src/script.js
+
+// AND
+var age = 29;
+var license = true;
+console.log(age >= 18 && license);
+
+// OR
+var age = 29;
+var license = false;
+console.log(age >= 18 || license);
+
+// NOT
+var active = true;
+console.log(!active);
+
+~~~
+
+## Estruturas de Controle de Fluxo
+
+### Estruturas Condicionais
+
+### Truthy and Falsy
+
+- **truthy**: tudo que não for ***falsy***
+
+- **falsy**: "", 0, false, underfined, null, NaN
+
+#### if
+
+~~~ javascript
+./src/script.js
+
+if (5 == "5") {
+    console.log("EXecutou.");
+} else {
+    console.log("Falso.");
+}
+
+~~~
+
+~~~ javascript
+./src/script.js
+
+var age = 65;
+
+if (age > 60) {
+    console.log("Aposentado.");
+} else if (age > 30) {
+    console.log("CLT.");
+} else {
+    console.log("Colleger");
+}
+
+~~~
+
+#### Operador Ternário
+
+~~~ javascript
+./src/javascript.ls
+
+var age = 16;
+
+age >= 18 ? console.log("Maior de idade.") : console.log("Menor de idade");
+
+~~~
+
+#### Curto-circuito lógico
+
+~~~ javascript
+./src/javascript.ls
+
+var licensed = false;
+
+!licensed && console.log("Precisa tirar a carta de habilitação");
+
+~~~
